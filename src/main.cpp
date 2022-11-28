@@ -3,7 +3,7 @@
 BluetoothSerial BT;
 void setup() {
   Serial.begin(115200);
-  BT.begin("tsengBT");   //藍芽顯示名稱,請修改為自訂名稱
+  BT.begin("tsengBT");   //藍芽顯示名稱,請修改為自訂名稱  //修改第二次
 }
 
 void loop() {
